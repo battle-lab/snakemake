@@ -1,1 +1,7 @@
 # snakemake
+This repository works as a template to start a Sanakemake project. Along with a basic file structure and example codes, it contains a snakemake profile to submit jobs on [MARCC](https://www.marcc.jhu.edu/).
+
+### Snakemake-related resources
+* [Snakemake tutorial](https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html)
+* [Open-source snakemake profiles to run jobs on different environments](https://github.com/Snakemake-Profiles)
+

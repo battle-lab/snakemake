@@ -1,0 +1,14 @@
+__default__:
+  partition: shared
+  nodes: 1
+  ntasks: 1
+  time: 10  # min
+  output: "{wildcards.output_dir}/marcc_logs/{rule}/slurm-%j.out"
+  error: "{wildcards.output_dir}/marcc_logs/{rule}/slurm-%j.err"
+  job-name: "{rule}"
+
+#run_gtex_network:
+#  time: "{params.runtime}"
+#  ntasks: "{params.thread}"
+#  job-name: "{wildcards.method}"
+

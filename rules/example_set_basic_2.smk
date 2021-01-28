@@ -16,12 +16,12 @@ rule sort:
 
 rule intersect:
     input:
-        "output/example/project_{fnum1}.sorted.txt",
-        "output/example/project_{fnum2}.sorted.txt"
+        f1="output/example/project_{fnum1}.sorted.txt",
+        f2="output/example/project_{fnum2}.sorted.txt"
     output:
         "output/example/project_{fnum1}_{fnum2}.txt"
     shell:
-        "comm -12 {input[0]} {input[1]} > {output}"
+        "comm -12 {input.f1} {input.f2} > {output}"
 
 rule project_counts:
     input:

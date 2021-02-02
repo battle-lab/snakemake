@@ -1,14 +1,15 @@
+# default configuration for every rule (unless overridden)
 __default__:
-  partition: shared
+  partition: express
   nodes: 1
   ntasks: 1
   time: 10  # min
-  output: "{wildcards.output_dir}/marcc_logs/{rule}/slurm-%j.out"
-  error: "{wildcards.output_dir}/marcc_logs/{rule}/slurm-%j.err"
+  output: "output/marcc_logs/{rule}/slurm-%j.out"
+  error: "output/marcc_logs/{rule}/slurm-%j.err"
   job-name: "{rule}"
 
-#run_gtex_network:
-#  time: "{params.runtime}"
-#  ntasks: "{params.thread}"
-#  job-name: "{wildcards.method}"
+# configuration for "project_counts" rule -- overrides the default
+project_counts:
+  time: 15
+  ntasks: 2
 

@@ -124,6 +124,15 @@ project_counts:
   ntasks: 2
 ```
 
+### How to customize the repository for a specific project
+1. Add your scripts in the repository -- preferably in `src` folder (please create the folder).
+2. Edit configuration variables in `config/config.yaml` file.
+3. Add your Snakemake rules in `rules` folder.
+4. Edit `Snakefile` to aggregate all rules and to define final outcomes of the project.
+5. Edit `profiles/marcc/cluster_config.yaml` to allocate resources for each job.
+
+NOTE: You may like to delete example rules in `rules` folder, example data in `data/example` folder.
+
 ### Snakemake-related resources
 * [Snakemake tutorial](https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html) - Highly recommended!
 * Useful arguments to run Snakemake are available [here](https://snakemake.readthedocs.io/en/stable/executing/cli.html).

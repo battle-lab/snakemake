@@ -139,4 +139,5 @@ NOTE: You may like to delete example rules in `rules` folder, example data in `d
 * Open-source snakemake profiles to run jobs on different environments are available [here](https://github.com/Snakemake-Profiles).
 * Snakemake-intro [slides](https://github.com/alorchhota/alorchhota.github.io/raw/master/static/talk/snakemake_2021.pptx).
 * Snakemake in action: [Ashis' project](https://github.com/alorchhota/spice_analysis).
+* Snakemake video tutorial:[Youtube link](https://youtu.be/VAohXxK0Ma8)
 

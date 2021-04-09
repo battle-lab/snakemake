@@ -140,4 +140,4 @@ NOTE: You may like to delete example rules in `rules` folder, example data in `d
 * Snakemake-intro [slides](https://github.com/alorchhota/alorchhota.github.io/raw/master/static/talk/snakemake_2021.pptx).
 * Snakemake in action: [Ashis' project](https://github.com/alorchhota/spice_analysis).
 * Snakemake video tutorial:[Youtube link](https://youtu.be/VAohXxK0Ma8)
-
+* How to deal with variable output (an unkown number of files) via checkpoints: [Stack Overflow](https://stackoverflow.com/questions/60792649/snakemake-variable-number-of-files)
